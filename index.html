@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Table</title>
+    <style>
+        table {
+            width: 80%;
+            border-collapse: separate;   /* IMPORTANT */
+            border-spacing: 10px;        /* GAP between cells */
+            margin: 20px auto;
+            font-size: 20px;
+            border: 3px solid black;
+        }
+
+        th, td {
+            border: 2px solid #aaa;      /* Separate visible boxes */
+            padding: 20px;
+            text-align: center;
+            width: 150px;
+        }
+
+        img {
+            width: 120px;
+            height: auto;
+            display: block;
+            margin: auto;
+               /* Blue border around image like screenshot */
+            padding: 5px;
+        }
+
+        button {
+            padding: 8px 18px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+
+<table>
+    <tr>
+        <th>P_ID</th>
+        <th>P_NAME</th>
+        <th>P_COST</th>
+        <th>P_IMAGE</th>
+        <th>UPDATE</th>
+        <th>DELETE</th>
+    </tr>
+
+    <tr>
+        <td>111</td>
+        <td>P_ONE</td>
+        <td>10000</td>
+        <td><img src="flipkart.png"></td>
+        <td><button>UPDATE</button></td>
+        <td><button>DELETE</button></td>
+    </tr>
+
+    <tr>
+        <td>222</td>
+        <td>P_TWO</td>
+        <td>20000</td>
+        <td><img src="amazon.png"></td>
+        <td><button>UPDATE</button></td>
+        <td><button>DELETE</button></td>
+    </tr>
+
+    <tr>
+        <td>333</td>
+        <td>P_THREE</td>
+        <td>30000</td>
+        <td><img src="myntra.png"></td>
+        <td><button>UPDATE</button></td>
+        <td><button>DELETE</button></td>
+    </tr>
+
+</table>
+
+</body>
+</html>
